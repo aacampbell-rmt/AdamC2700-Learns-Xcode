@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66ED31261471C0A300444C7B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66ED31251471C0A300444C7B /* Cocoa.framework */; };
+		66ED31301471C0A300444C7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66ED312E1471C0A300444C7B /* InfoPlist.strings */; };
+		66ED31321471C0A300444C7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ED31311471C0A300444C7B /* main.m */; };
+		66ED31361471C0A300444C7B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66ED31341471C0A300444C7B /* Credits.rtf */; };
+		66ED31391471C0A300444C7B /* DanceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ED31381471C0A300444C7B /* DanceAppDelegate.m */; };
+		66ED313C1471C0A400444C7B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66ED313A1471C0A400444C7B /* MainMenu.xib */; };
+		66ED31441471C0A400444C7B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66ED31431471C0A400444C7B /* SenTestingKit.framework */; };
+		66ED31451471C0A400444C7B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66ED31251471C0A300444C7B /* Cocoa.framework */; };
+		66ED314D1471C0A400444C7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66ED314B1471C0A400444C7B /* InfoPlist.strings */; };
+		66ED314F1471C0A400444C7B /* DanceTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 66ED314E1471C0A400444C7B /* DanceTests.h */; };
+		66ED31511471C0A400444C7B /* DanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ED31501471C0A400444C7B /* DanceTests.m */; };
+		66ED315B1471C21B00444C7B /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66ED315A1471C21B00444C7B /* Python.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66ED31461471C0A400444C7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66ED31181471C0A300444C7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66ED31201471C0A300444C7B;
+			remoteInfo = Dance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66ED31211471C0A300444C7B /* Dance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66ED31251471C0A300444C7B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		66ED31281471C0A300444C7B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		66ED31291471C0A300444C7B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66ED312A1471C0A300444C7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66ED312D1471C0A300444C7B /* Dance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dance-Info.plist"; sourceTree = "<group>"; };
+		66ED312F1471C0A300444C7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66ED31311471C0A300444C7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66ED31331471C0A300444C7B /* Dance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dance-Prefix.pch"; sourceTree = "<group>"; };
+		66ED31351471C0A300444C7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		66ED31371471C0A300444C7B /* DanceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DanceAppDelegate.h; sourceTree = "<group>"; };
+		66ED31381471C0A300444C7B /* DanceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanceAppDelegate.m; sourceTree = "<group>"; };
+		66ED313B1471C0A400444C7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		66ED31421471C0A400444C7B /* DanceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66ED31431471C0A400444C7B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		66ED314A1471C0A400444C7B /* DanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DanceTests-Info.plist"; sourceTree = "<group>"; };
+		66ED314C1471C0A400444C7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66ED314E1471C0A400444C7B /* DanceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DanceTests.h; sourceTree = "<group>"; };
+		66ED31501471C0A400444C7B /* DanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanceTests.m; sourceTree = "<group>"; };
+		66ED315A1471C21B00444C7B /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66ED311E1471C0A300444C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66ED315B1471C21B00444C7B /* Python.framework in Frameworks */,
+				66ED31261471C0A300444C7B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66ED313E1471C0A400444C7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66ED31441471C0A400444C7B /* SenTestingKit.framework in Frameworks */,
+				66ED31451471C0A400444C7B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66ED31161471C0A300444C7B = {
+			isa = PBXGroup;
+			children = (
+				66ED315A1471C21B00444C7B /* Python.framework */,
+				66ED312B1471C0A300444C7B /* Dance */,
+				66ED31481471C0A400444C7B /* DanceTests */,
+				66ED31241471C0A300444C7B /* Frameworks */,
+				66ED31221471C0A300444C7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66ED31221471C0A300444C7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66ED31211471C0A300444C7B /* Dance.app */,
+				66ED31421471C0A400444C7B /* DanceTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66ED31241471C0A300444C7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66ED31251471C0A300444C7B /* Cocoa.framework */,
+				66ED31431471C0A400444C7B /* SenTestingKit.framework */,
+				66ED31271471C0A300444C7B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66ED31271471C0A300444C7B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66ED31281471C0A300444C7B /* AppKit.framework */,
+				66ED31291471C0A300444C7B /* CoreData.framework */,
+				66ED312A1471C0A300444C7B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		66ED312B1471C0A300444C7B /* Dance */ = {
+			isa = PBXGroup;
+			children = (
+				66ED31371471C0A300444C7B /* DanceAppDelegate.h */,
+				66ED31381471C0A300444C7B /* DanceAppDelegate.m */,
+				66ED313A1471C0A400444C7B /* MainMenu.xib */,
+				66ED312C1471C0A300444C7B /* Supporting Files */,
+			);
+			path = Dance;
+			sourceTree = "<group>";
+		};
+		66ED312C1471C0A300444C7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66ED312D1471C0A300444C7B /* Dance-Info.plist */,
+				66ED312E1471C0A300444C7B /* InfoPlist.strings */,
+				66ED31311471C0A300444C7B /* main.m */,
+				66ED31331471C0A300444C7B /* Dance-Prefix.pch */,
+				66ED31341471C0A300444C7B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66ED31481471C0A400444C7B /* DanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				66ED314E1471C0A400444C7B /* DanceTests.h */,
+				66ED31501471C0A400444C7B /* DanceTests.m */,
+				66ED31491471C0A400444C7B /* Supporting Files */,
+			);
+			path = DanceTests;
+			sourceTree = "<group>";
+		};
+		66ED31491471C0A400444C7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66ED314A1471C0A400444C7B /* DanceTests-Info.plist */,
+				66ED314B1471C0A400444C7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66ED31201471C0A300444C7B /* Dance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66ED31541471C0A400444C7B /* Build configuration list for PBXNativeTarget "Dance" */;
+			buildPhases = (
+				66ED311D1471C0A300444C7B /* Sources */,
+				66ED311E1471C0A300444C7B /* Frameworks */,
+				66ED311F1471C0A300444C7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dance;
+			productName = Dance;
+			productReference = 66ED31211471C0A300444C7B /* Dance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66ED31411471C0A400444C7B /* DanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66ED31571471C0A400444C7B /* Build configuration list for PBXNativeTarget "DanceTests" */;
+			buildPhases = (
+				66ED313D1471C0A400444C7B /* Sources */,
+				66ED313E1471C0A400444C7B /* Frameworks */,
+				66ED313F1471C0A400444C7B /* Resources */,
+				66ED31401471C0A400444C7B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66ED31471471C0A400444C7B /* PBXTargetDependency */,
+			);
+			name = DanceTests;
+			productName = DanceTests;
+			productReference = 66ED31421471C0A400444C7B /* DanceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66ED31181471C0A300444C7B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 66ED311B1471C0A300444C7B /* Build configuration list for PBXProject "Dance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66ED31161471C0A300444C7B;
+			productRefGroup = 66ED31221471C0A300444C7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66ED31201471C0A300444C7B /* Dance */,
+				66ED31411471C0A400444C7B /* DanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66ED311F1471C0A300444C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66ED31301471C0A300444C7B /* InfoPlist.strings in Resources */,
+				66ED31361471C0A300444C7B /* Credits.rtf in Resources */,
+				66ED313C1471C0A400444C7B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66ED313F1471C0A400444C7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66ED314D1471C0A400444C7B /* InfoPlist.strings in Resources */,
+				66ED314F1471C0A400444C7B /* DanceTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66ED31401471C0A400444C7B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66ED311D1471C0A300444C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66ED31321471C0A300444C7B /* main.m in Sources */,
+				66ED31391471C0A300444C7B /* DanceAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66ED313D1471C0A400444C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66ED31511471C0A400444C7B /* DanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66ED31471471C0A400444C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66ED31201471C0A300444C7B /* Dance */;
+			targetProxy = 66ED31461471C0A400444C7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66ED312E1471C0A300444C7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66ED312F1471C0A300444C7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66ED31341471C0A300444C7B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66ED31351471C0A300444C7B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		66ED313A1471C0A400444C7B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66ED313B1471C0A400444C7B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		66ED314B1471C0A400444C7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66ED314C1471C0A400444C7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66ED31521471C0A400444C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66ED31531471C0A400444C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		66ED31551471C0A400444C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dance/Dance-Prefix.pch";
+				INFOPLIST_FILE = "Dance/Dance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66ED31561471C0A400444C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dance/Dance-Prefix.pch";
+				INFOPLIST_FILE = "Dance/Dance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66ED31581471C0A400444C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dance.app/Contents/MacOS/Dance";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dance/Dance-Prefix.pch";
+				INFOPLIST_FILE = "DanceTests/DanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		66ED31591471C0A400444C7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dance.app/Contents/MacOS/Dance";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dance/Dance-Prefix.pch";
+				INFOPLIST_FILE = "DanceTests/DanceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66ED311B1471C0A300444C7B /* Build configuration list for PBXProject "Dance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66ED31521471C0A400444C7B /* Debug */,
+				66ED31531471C0A400444C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66ED31541471C0A400444C7B /* Build configuration list for PBXNativeTarget "Dance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66ED31551471C0A400444C7B /* Debug */,
+				66ED31561471C0A400444C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66ED31571471C0A400444C7B /* Build configuration list for PBXNativeTarget "DanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66ED31581471C0A400444C7B /* Debug */,
+				66ED31591471C0A400444C7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66ED31181471C0A300444C7B /* Project object */;
+}
