@@ -10,6 +10,8 @@
 		660F6369153387B000743E5D /* test2.c in Sources */ = {isa = PBXBuildFile; fileRef = 660F6368153387B000743E5D /* test2.c */; };
 		660F636B153387B000743E5D /* Learning_C.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 660F636A153387B000743E5D /* Learning_C.1 */; };
 		660F637215338D7B00743E5D /* test1.c in Sources */ = {isa = PBXBuildFile; fileRef = 660F637115338D7B00743E5D /* test1.c */; };
+		660F6375153392AA00743E5D /* test3.c in Sources */ = {isa = PBXBuildFile; fileRef = 660F6374153392AA00743E5D /* test3.c */; };
+		660F6378153399BA00743E5D /* math_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 660F6377153399BA00743E5D /* math_functions.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +32,9 @@
 		660F6368153387B000743E5D /* test2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test2.c; sourceTree = "<group>"; };
 		660F636A153387B000743E5D /* Learning_C.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Learning_C.1; sourceTree = "<group>"; };
 		660F637115338D7B00743E5D /* test1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test1.c; sourceTree = "<group>"; };
+		660F6374153392AA00743E5D /* test3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test3.c; sourceTree = "<group>"; };
+		660F63761533997000743E5D /* math_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math_functions.h; sourceTree = "<group>"; };
+		660F6377153399BA00743E5D /* math_functions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = math_functions.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				660F6368153387B000743E5D /* test2.c */,
+				660F6374153392AA00743E5D /* test3.c */,
+				660F63761533997000743E5D /* math_functions.h */,
+				660F6377153399BA00743E5D /* math_functions.c */,
 				660F637115338D7B00743E5D /* test1.c */,
 				660F636A153387B000743E5D /* Learning_C.1 */,
 			);
@@ -121,6 +129,8 @@
 			files = (
 				660F6369153387B000743E5D /* test2.c in Sources */,
 				660F637215338D7B00743E5D /* test1.c in Sources */,
+				660F6375153392AA00743E5D /* test3.c in Sources */,
+				660F6378153399BA00743E5D /* math_functions.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +187,7 @@
 		660F636F153387B000743E5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -184,6 +195,7 @@
 		660F6370153387B000743E5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

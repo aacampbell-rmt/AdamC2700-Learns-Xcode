@@ -6,17 +6,22 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#include <stdio.h>
+// This shows functions, and how they need to be shown before main and placing variables in strings
 
-int sum ( int x, int y);
+// #include <stdio.h>
 
-int main (int argc, const char * argv[])
-{
-    int theSum = sum(10,11);
-    printf( "Sum: %i\n", theSum );
-}
+// int sum ( int x, int y);
+// int lo = 4;
+// int loo = 7;
 
-int sum (int x, int y)
-{
-    return x + y;
-}
+// int main (int argc, const char * argv[])
+// {
+//     int theSum = sum(10,11);
+//     printf( "Sum: %i\n", theSum );
+//     printf("First: %i second:%i", lo, loo);
+// }
+
+// int sum (int x, int y)
+// {
+//     return x + y;
+// }

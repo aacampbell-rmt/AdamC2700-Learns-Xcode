@@ -6,9 +6,11 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#include <stdio.h>
+// This defines printf, requiring stdio.h
 
-int main ()
-{
-    printf ("I'm a C program\n");
-}
+// #include <stdio.h>
+
+// int main ()
+// {
+//    printf ("I'm a C program\n");
+// }
