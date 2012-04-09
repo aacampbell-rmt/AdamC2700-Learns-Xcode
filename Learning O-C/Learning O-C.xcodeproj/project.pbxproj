@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660F62A91533797000743E5D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660F62A81533797000743E5D /* Cocoa.framework */; };
+		660F62B31533797000743E5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 660F62B11533797000743E5D /* InfoPlist.strings */; };
+		660F62B51533797000743E5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F62B41533797000743E5D /* main.m */; };
+		660F62B91533797000743E5D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 660F62B71533797000743E5D /* Credits.rtf */; };
+		660F62BC1533797000743E5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F62BB1533797000743E5D /* AppDelegate.m */; };
+		660F62BF1533797000743E5D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660F62BD1533797000743E5D /* MainMenu.xib */; };
+		660F62C71533797000743E5D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660F62C61533797000743E5D /* SenTestingKit.framework */; };
+		660F62C81533797000743E5D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660F62A81533797000743E5D /* Cocoa.framework */; };
+		660F62D01533797000743E5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 660F62CE1533797000743E5D /* InfoPlist.strings */; };
+		660F62D31533797100743E5D /* Learning_O_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F62D21533797100743E5D /* Learning_O_CTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		660F62C91533797000743E5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 660F629B1533797000743E5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660F62A31533797000743E5D;
+			remoteInfo = "Learning O-C";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		660F62A41533797000743E5D /* Learning O-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning O-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660F62A81533797000743E5D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		660F62AB1533797000743E5D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		660F62AC1533797000743E5D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		660F62AD1533797000743E5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		660F62B01533797000743E5D /* Learning O-C-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Learning O-C-Info.plist"; sourceTree = "<group>"; };
+		660F62B21533797000743E5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		660F62B41533797000743E5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		660F62B61533797000743E5D /* Learning O-C-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Learning O-C-Prefix.pch"; sourceTree = "<group>"; };
+		660F62B81533797000743E5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		660F62BA1533797000743E5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		660F62BB1533797000743E5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		660F62BE1533797000743E5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		660F62C51533797000743E5D /* Learning O-CTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning O-CTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660F62C61533797000743E5D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		660F62CD1533797000743E5D /* Learning O-CTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Learning O-CTests-Info.plist"; sourceTree = "<group>"; };
+		660F62CF1533797000743E5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		660F62D11533797000743E5D /* Learning_O_CTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Learning_O_CTests.h; sourceTree = "<group>"; };
+		660F62D21533797100743E5D /* Learning_O_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Learning_O_CTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		660F62A11533797000743E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660F62A91533797000743E5D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660F62C11533797000743E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660F62C71533797000743E5D /* SenTestingKit.framework in Frameworks */,
+				660F62C81533797000743E5D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		660F62991533797000743E5D = {
+			isa = PBXGroup;
+			children = (
+				660F62AE1533797000743E5D /* Learning O-C */,
+				660F62CB1533797000743E5D /* Learning O-CTests */,
+				660F62A71533797000743E5D /* Frameworks */,
+				660F62A51533797000743E5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		660F62A51533797000743E5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				660F62A41533797000743E5D /* Learning O-C.app */,
+				660F62C51533797000743E5D /* Learning O-CTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		660F62A71533797000743E5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				660F62A81533797000743E5D /* Cocoa.framework */,
+				660F62C61533797000743E5D /* SenTestingKit.framework */,
+				660F62AA1533797000743E5D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		660F62AA1533797000743E5D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				660F62AB1533797000743E5D /* AppKit.framework */,
+				660F62AC1533797000743E5D /* CoreData.framework */,
+				660F62AD1533797000743E5D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		660F62AE1533797000743E5D /* Learning O-C */ = {
+			isa = PBXGroup;
+			children = (
+				660F62BA1533797000743E5D /* AppDelegate.h */,
+				660F62BB1533797000743E5D /* AppDelegate.m */,
+				660F62BD1533797000743E5D /* MainMenu.xib */,
+				660F62AF1533797000743E5D /* Supporting Files */,
+			);
+			path = "Learning O-C";
+			sourceTree = "<group>";
+		};
+		660F62AF1533797000743E5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				660F62B01533797000743E5D /* Learning O-C-Info.plist */,
+				660F62B11533797000743E5D /* InfoPlist.strings */,
+				660F62B41533797000743E5D /* main.m */,
+				660F62B61533797000743E5D /* Learning O-C-Prefix.pch */,
+				660F62B71533797000743E5D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		660F62CB1533797000743E5D /* Learning O-CTests */ = {
+			isa = PBXGroup;
+			children = (
+				660F62D11533797000743E5D /* Learning_O_CTests.h */,
+				660F62D21533797100743E5D /* Learning_O_CTests.m */,
+				660F62CC1533797000743E5D /* Supporting Files */,
+			);
+			path = "Learning O-CTests";
+			sourceTree = "<group>";
+		};
+		660F62CC1533797000743E5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				660F62CD1533797000743E5D /* Learning O-CTests-Info.plist */,
+				660F62CE1533797000743E5D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		660F62A31533797000743E5D /* Learning O-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660F62D61533797100743E5D /* Build configuration list for PBXNativeTarget "Learning O-C" */;
+			buildPhases = (
+				660F62A01533797000743E5D /* Sources */,
+				660F62A11533797000743E5D /* Frameworks */,
+				660F62A21533797000743E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Learning O-C";
+			productName = "Learning O-C";
+			productReference = 660F62A41533797000743E5D /* Learning O-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+		660F62C41533797000743E5D /* Learning O-CTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660F62D91533797100743E5D /* Build configuration list for PBXNativeTarget "Learning O-CTests" */;
+			buildPhases = (
+				660F62C01533797000743E5D /* Sources */,
+				660F62C11533797000743E5D /* Frameworks */,
+				660F62C21533797000743E5D /* Resources */,
+				660F62C31533797000743E5D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				660F62CA1533797000743E5D /* PBXTargetDependency */,
+			);
+			name = "Learning O-CTests";
+			productName = "Learning O-CTests";
+			productReference = 660F62C51533797000743E5D /* Learning O-CTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		660F629B1533797000743E5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 660F629E1533797000743E5D /* Build configuration list for PBXProject "Learning O-C" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 660F62991533797000743E5D;
+			productRefGroup = 660F62A51533797000743E5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				660F62A31533797000743E5D /* Learning O-C */,
+				660F62C41533797000743E5D /* Learning O-CTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		660F62A21533797000743E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660F62B31533797000743E5D /* InfoPlist.strings in Resources */,
+				660F62B91533797000743E5D /* Credits.rtf in Resources */,
+				660F62BF1533797000743E5D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660F62C21533797000743E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660F62D01533797000743E5D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		660F62C31533797000743E5D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		660F62A01533797000743E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660F62B51533797000743E5D /* main.m in Sources */,
+				660F62BC1533797000743E5D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660F62C01533797000743E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660F62D31533797100743E5D /* Learning_O_CTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		660F62CA1533797000743E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 660F62A31533797000743E5D /* Learning O-C */;
+			targetProxy = 660F62C91533797000743E5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		660F62B11533797000743E5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660F62B21533797000743E5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		660F62B71533797000743E5D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660F62B81533797000743E5D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		660F62BD1533797000743E5D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660F62BE1533797000743E5D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		660F62CE1533797000743E5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660F62CF1533797000743E5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		660F62D41533797100743E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		660F62D51533797100743E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		660F62D71533797100743E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Learning O-C/Learning O-C-Prefix.pch";
+				INFOPLIST_FILE = "Learning O-C/Learning O-C-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		660F62D81533797100743E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Learning O-C/Learning O-C-Prefix.pch";
+				INFOPLIST_FILE = "Learning O-C/Learning O-C-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		660F62DA1533797100743E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Learning O-C.app/Contents/MacOS/Learning O-C";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Learning O-C/Learning O-C-Prefix.pch";
+				INFOPLIST_FILE = "Learning O-CTests/Learning O-CTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		660F62DB1533797100743E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Learning O-C.app/Contents/MacOS/Learning O-C";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Learning O-C/Learning O-C-Prefix.pch";
+				INFOPLIST_FILE = "Learning O-CTests/Learning O-CTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		660F629E1533797000743E5D /* Build configuration list for PBXProject "Learning O-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660F62D41533797100743E5D /* Debug */,
+				660F62D51533797100743E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660F62D61533797100743E5D /* Build configuration list for PBXNativeTarget "Learning O-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660F62D71533797100743E5D /* Debug */,
+				660F62D81533797100743E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		660F62D91533797100743E5D /* Build configuration list for PBXNativeTarget "Learning O-CTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660F62DA1533797100743E5D /* Debug */,
+				660F62DB1533797100743E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 660F629B1533797000743E5D /* Project object */;
+}
