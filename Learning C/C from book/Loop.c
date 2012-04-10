@@ -8,19 +8,24 @@
 
 // This programme uses an array and a loop
 
-#include <stdio.h>
+// #include <stdio.h>
 
 // define an array of 5 values
-int values[5] = {12,5,24,56,7};
+
+// int values[5] = {12,5,24,56,7};
+
 //define an integer
-int total = 0;
+
+//int total = 0;
+
 //define i as integer for loop counter
-int i;
 
-int main () {
+//int i;
 
-    for (i=0; i < 5; i++){
-    total += values[i];
-        printf("%i \n", total);
-    }
-}
+//int main () {
+
+//    for (i=0; i < 5; i++){
+//    total += values[i];
+//        printf("%i \n", total);
+//    }
+// }
