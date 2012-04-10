@@ -6,10 +6,14 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-typedef struct {
-    int lengthInSeconds;
-    int yearRecorded;
-} Song;
+// typedef creates new variable with two values
 
-Song make_song (int seconds, int year);
-void display_song (Song theSong);
+// typedef struct {
+//     int lengthInSeconds;
+//     int yearRecorded;
+// } Song;
+
+// function prototypes
+
+// Song make_song (int seconds, int year);
+// void display_song (Song theSong);
