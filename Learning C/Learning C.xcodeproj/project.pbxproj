@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66059F631534E693006CF1D6 /* Loop.c in Sources */ = {isa = PBXBuildFile; fileRef = 66059F621534E693006CF1D6 /* Loop.c */; };
 		660F6369153387B000743E5D /* test2.c in Sources */ = {isa = PBXBuildFile; fileRef = 660F6368153387B000743E5D /* test2.c */; };
 		660F636B153387B000743E5D /* Learning_C.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 660F636A153387B000743E5D /* Learning_C.1 */; };
 		660F637215338D7B00743E5D /* test1.c in Sources */ = {isa = PBXBuildFile; fileRef = 660F637115338D7B00743E5D /* test1.c */; };
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		66059F621534E693006CF1D6 /* Loop.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Loop.c; sourceTree = "<group>"; };
 		660F6364153387B000743E5D /* Learning C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Learning C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		660F6368153387B000743E5D /* test2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test2.c; sourceTree = "<group>"; };
 		660F636A153387B000743E5D /* Learning_C.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Learning_C.1; sourceTree = "<group>"; };
@@ -61,9 +63,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66059F5E1534E5C8006CF1D6 /* C from Book */ = {
+			isa = PBXGroup;
+			children = (
+				66059F621534E693006CF1D6 /* Loop.c */,
+			);
+			name = "C from Book";
+			path = "C from book";
+			sourceTree = "<group>";
+		};
 		660F6359153387B000743E5D = {
 			isa = PBXGroup;
 			children = (
+				66059F5E1534E5C8006CF1D6 /* C from Book */,
 				660F6367153387B000743E5D /* Learning C */,
 				660F6365153387B000743E5D /* Products */,
 			);
@@ -157,6 +169,7 @@
 				6615210615346B99000DAF1E /* 5math_functions.c in Sources */,
 				6615210A15346BC0000DAF1E /* 5song.c in Sources */,
 				6615210D15346D88000DAF1E /* Test5.c in Sources */,
+				66059F631534E693006CF1D6 /* Loop.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

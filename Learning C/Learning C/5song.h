@@ -8,12 +8,12 @@
 
 // typedef creates new variable with two values
 
-typedef struct {
-    int lengthInSeconds;
-    int yearRecorded;
-} Song;
+// typedef struct {
+//    int lengthInSeconds;
+//    int yearRecorded;
+// } Song;
 
 // function prototypes
 
-Song make_song (int seconds, int year);
-void display_song (Song theSong);
+// Song make_song (int seconds, int year);
+// void display_song (Song theSong);

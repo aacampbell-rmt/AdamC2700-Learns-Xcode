@@ -8,9 +8,9 @@
 
 // shows how to use a header file
 
-#include <stdio.h>
+// #include <stdio.h>
 // includes header file with functions defined there in .h
-#include "5math_functions.h"
+// #include "5math_functions.h"
 
 // int main ()
 // {
@@ -22,12 +22,12 @@
 //     printf("Average casted to an integer is: %i \n", (int)theAverage);
 //  }
 
-int sum (int x, int y)
- {
-    return (x + y);
-}
+// int sum (int x, int y)
+//  {
+//     return (x + y);
+// }
 
-float average (float x, float y, float z)
- {
-     return (x + y + z) / 3;
- }
+// float average (float x, float y, float z)
+//  {
+//      return (x + y + z) / 3;
+// }

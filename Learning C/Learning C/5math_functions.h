@@ -9,5 +9,5 @@
 // a basic header file for C
 
 
-int     sum     (int x, int y);
-float   average (float x, float y, float z);
+// int     sum     (int x, int y);
+// float   average (float x, float y, float z);
