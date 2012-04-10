@@ -17,7 +17,6 @@
 		660F62C81533797000743E5D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660F62A81533797000743E5D /* Cocoa.framework */; };
 		660F62D01533797000743E5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 660F62CE1533797000743E5D /* InfoPlist.strings */; };
 		660F62D31533797100743E5D /* Learning_O_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 660F62D21533797100743E5D /* Learning_O_CTests.m */; };
-		660F62DE15337CBA00743E5D /* File.c in Sources */ = {isa = PBXBuildFile; fileRef = 660F62DD15337CBA00743E5D /* File.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		660F62CF1533797000743E5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		660F62D11533797000743E5D /* Learning_O_CTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Learning_O_CTests.h; sourceTree = "<group>"; };
 		660F62D21533797100743E5D /* Learning_O_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Learning_O_CTests.m; sourceTree = "<group>"; };
-		660F62DD15337CBA00743E5D /* File.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = File.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +75,6 @@
 		660F62991533797000743E5D = {
 			isa = PBXGroup;
 			children = (
-				660F62DC15337C9700743E5D /* Learning C */,
 				660F62AE1533797000743E5D /* Learning O-C */,
 				660F62CB1533797000743E5D /* Learning O-CTests */,
 				660F62A71533797000743E5D /* Frameworks */,
@@ -154,15 +151,6 @@
 				660F62CE1533797000743E5D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		660F62DC15337C9700743E5D /* Learning C */ = {
-			isa = PBXGroup;
-			children = (
-				660F62DD15337CBA00743E5D /* File.c */,
-			);
-			name = "Learning C";
-			path = "Learning O-C";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +262,6 @@
 			files = (
 				660F62B51533797000743E5D /* main.m in Sources */,
 				660F62BC1533797000743E5D /* AppDelegate.m in Sources */,
-				660F62DE15337CBA00743E5D /* File.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +439,7 @@
 				660F62D81533797100743E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		660F62D91533797100743E5D /* Build configuration list for PBXNativeTarget "Learning O-CTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +448,7 @@
 				660F62DB1533797100743E5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
