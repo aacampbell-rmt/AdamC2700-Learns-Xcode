@@ -26,3 +26,7 @@ char anotherword[] = {'A','d','a','m'};
 //better
 char stringarray[] = "Campbelll";
 
+int main () {
+    printf("My name is %c%c%c%c %s.\n", anotherword[0],anotherword[1],anotherword[2],anotherword[3], stringarray);
+}
+
