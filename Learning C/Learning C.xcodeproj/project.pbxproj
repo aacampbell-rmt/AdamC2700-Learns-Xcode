@@ -19,6 +19,7 @@
 		6615210615346B99000DAF1E /* 5math_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 6615210515346B99000DAF1E /* 5math_functions.c */; };
 		6615210A15346BC0000DAF1E /* 5song.c in Sources */ = {isa = PBXBuildFile; fileRef = 6615210915346BC0000DAF1E /* 5song.c */; };
 		6615210D15346D88000DAF1E /* Test5.c in Sources */ = {isa = PBXBuildFile; fileRef = 6615210C15346D88000DAF1E /* Test5.c */; };
+		66FAD26515363C9400B72512 /* Pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = 66FAD26415363C9400B72512 /* Pointers.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,7 @@
 		6615210915346BC0000DAF1E /* 5song.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 5song.c; sourceTree = "<group>"; };
 		6615210B15346BC6000DAF1E /* 5song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 5song.h; sourceTree = "<group>"; };
 		6615210C15346D88000DAF1E /* Test5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Test5.c; sourceTree = "<group>"; };
+		66FAD26415363C9400B72512 /* Pointers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Pointers.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				66059F621534E693006CF1D6 /* Loop.c */,
+				66FAD26415363C9400B72512 /* Pointers.c */,
 				66059F641534ED1A006CF1D6 /* Text Arrays Strings.c */,
 			);
 			name = "C from Book";
@@ -174,6 +177,7 @@
 				6615210D15346D88000DAF1E /* Test5.c in Sources */,
 				66059F631534E693006CF1D6 /* Loop.c in Sources */,
 				66059F651534ED1A006CF1D6 /* Text Arrays Strings.c in Sources */,
+				66FAD26515363C9400B72512 /* Pointers.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
