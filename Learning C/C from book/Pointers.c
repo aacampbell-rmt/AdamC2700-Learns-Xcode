@@ -8,27 +8,27 @@
 
 // uses pointer variables
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main()
-{
-    int number = 4;
+// int main()
+// {
+//    int number = 4;
     
     // declare a pointer variable by putting an * after the type declaration and an & before the variable it points to
     
-    int* numberpointer = &number;
+//    int* numberpointer = &number;
     
-    printf("Number: %i\n", number);
+//    printf("Number: %i\n", number);
     
     //placing variable in print requires ampersand to say 'value of' and not memory location
     
-    printf("Number pointer: %i\n", *numberpointer);
+//    printf("Number pointer: %i\n", *numberpointer);
     
-    number = 16;
+//    number = 16;
     
     // pointer value changes with variable change
     
     
-    printf("Number: %i\n", number);
-    printf("Number pointer: %i\n", *numberpointer);
-}
+//    printf("Number: %i\n", number);
+//    printf("Number pointer: %i\n", *numberpointer);
+// }
