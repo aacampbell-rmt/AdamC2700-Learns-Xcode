@@ -16,6 +16,7 @@
 		660F6378153399BA00743E5D /* math_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 660F6377153399BA00743E5D /* math_functions.c */; };
 		660F637A15339D6400743E5D /* song.c in Sources */ = {isa = PBXBuildFile; fileRef = 660F637915339D6400743E5D /* song.c */; };
 		660F637D15339FBE00743E5D /* test 4.c in Sources */ = {isa = PBXBuildFile; fileRef = 660F637C15339FBE00743E5D /* test 4.c */; };
+		661298371537481C006B7493 /* Dynamic Memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 661298361537481C006B7493 /* Dynamic Memory.c */; };
 		6615210615346B99000DAF1E /* 5math_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 6615210515346B99000DAF1E /* 5math_functions.c */; };
 		6615210A15346BC0000DAF1E /* 5song.c in Sources */ = {isa = PBXBuildFile; fileRef = 6615210915346BC0000DAF1E /* 5song.c */; };
 		6615210D15346D88000DAF1E /* Test5.c in Sources */ = {isa = PBXBuildFile; fileRef = 6615210C15346D88000DAF1E /* Test5.c */; };
@@ -48,6 +49,7 @@
 		660F637915339D6400743E5D /* song.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = song.c; sourceTree = "<group>"; };
 		660F637B15339D9C00743E5D /* song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = song.h; sourceTree = "<group>"; };
 		660F637C15339FBE00743E5D /* test 4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "test 4.c"; sourceTree = "<group>"; };
+		661298361537481C006B7493 /* Dynamic Memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Dynamic Memory.c"; sourceTree = "<group>"; };
 		6615210515346B99000DAF1E /* 5math_functions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 5math_functions.c; sourceTree = "<group>"; };
 		6615210815346BB2000DAF1E /* 5math_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 5math_functions.h; sourceTree = "<group>"; };
 		6615210915346BC0000DAF1E /* 5song.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 5song.c; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				66059F621534E693006CF1D6 /* Loop.c */,
 				66FAD26415363C9400B72512 /* Pointers.c */,
 				66059F641534ED1A006CF1D6 /* Text Arrays Strings.c */,
+				661298361537481C006B7493 /* Dynamic Memory.c */,
 			);
 			name = "C from Book";
 			path = "C from book";
@@ -178,6 +181,7 @@
 				66059F631534E693006CF1D6 /* Loop.c in Sources */,
 				66059F651534ED1A006CF1D6 /* Text Arrays Strings.c in Sources */,
 				66FAD26515363C9400B72512 /* Pointers.c in Sources */,
+				661298371537481C006B7493 /* Dynamic Memory.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
