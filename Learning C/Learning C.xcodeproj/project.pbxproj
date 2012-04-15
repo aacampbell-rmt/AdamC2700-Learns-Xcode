@@ -23,6 +23,9 @@
 		66DAFD901537552D0092373D /* Dynamic Memory and Strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 66DAFD8F1537552D0092373D /* Dynamic Memory and Strings.c */; };
 		66FAD26515363C9400B72512 /* Pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = 66FAD26415363C9400B72512 /* Pointers.c */; };
 		66FBD49A153B4C310041ECA8 /* Address Book.c in Sources */ = {isa = PBXBuildFile; fileRef = 66FBD499153B4C310041ECA8 /* Address Book.c */; };
+		66FBD49D153B57D10041ECA8 /* math_functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 66FBD49C153B57D10041ECA8 /* math_functions.c */; };
+		66FBD4A1153B59C30041ECA8 /* song.c in Sources */ = {isa = PBXBuildFile; fileRef = 66FBD4A0153B59C30041ECA8 /* song.c */; };
+		66FBD4A3153B5BE00041ECA8 /* Final Programme.c in Sources */ = {isa = PBXBuildFile; fileRef = 66FBD4A2153B5BE00041ECA8 /* Final Programme.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +63,12 @@
 		66DAFD8F1537552D0092373D /* Dynamic Memory and Strings.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Dynamic Memory and Strings.c"; sourceTree = "<group>"; };
 		66FAD26415363C9400B72512 /* Pointers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Pointers.c; sourceTree = "<group>"; };
 		66FBD499153B4C310041ECA8 /* Address Book.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Address Book.c"; sourceTree = "<group>"; };
+		66FBD49C153B57D10041ECA8 /* math_functions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = math_functions.c; sourceTree = "<group>"; };
+		66FBD49E153B58120041ECA8 /* math_functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = math_functions.h; sourceTree = "<group>"; };
+		66FBD49F153B58340041ECA8 /* song.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = song.h; sourceTree = "<group>"; };
+		66FBD4A0153B59C30041ECA8 /* song.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = song.c; sourceTree = "<group>"; };
+		66FBD4A2153B5BE00041ECA8 /* Final Programme.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Final Programme.c"; sourceTree = "<group>"; };
+		66FBD4A4153B61550041ECA8 /* Final Programme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Final Programme.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,12 @@
 				661298361537481C006B7493 /* Dynamic Memory.c */,
 				66DAFD8F1537552D0092373D /* Dynamic Memory and Strings.c */,
 				66FBD499153B4C310041ECA8 /* Address Book.c */,
+				66FBD49C153B57D10041ECA8 /* math_functions.c */,
+				66FBD49E153B58120041ECA8 /* math_functions.h */,
+				66FBD49F153B58340041ECA8 /* song.h */,
+				66FBD4A0153B59C30041ECA8 /* song.c */,
+				66FBD4A2153B5BE00041ECA8 /* Final Programme.c */,
+				66FBD4A4153B61550041ECA8 /* Final Programme.h */,
 			);
 			name = "C from Book";
 			path = "C from book";
@@ -110,11 +125,11 @@
 				660F637115338D7B00743E5D /* test1.c */,
 				660F6368153387B000743E5D /* test2.c */,
 				660F6374153392AA00743E5D /* test3.c */,
-				660F6377153399BA00743E5D /* math_functions.c */,
-				660F63761533997000743E5D /* math_functions.h */,
 				660F637915339D6400743E5D /* song.c */,
 				660F637B15339D9C00743E5D /* song.h */,
 				660F637C15339FBE00743E5D /* test 4.c */,
+				660F6377153399BA00743E5D /* math_functions.c */,
+				660F63761533997000743E5D /* math_functions.h */,
 				6615210515346B99000DAF1E /* 5math_functions.c */,
 				6615210815346BB2000DAF1E /* 5math_functions.h */,
 				6615210915346BC0000DAF1E /* 5song.c */,
@@ -190,6 +205,9 @@
 				661298371537481C006B7493 /* Dynamic Memory.c in Sources */,
 				66DAFD901537552D0092373D /* Dynamic Memory and Strings.c in Sources */,
 				66FBD49A153B4C310041ECA8 /* Address Book.c in Sources */,
+				66FBD49D153B57D10041ECA8 /* math_functions.c in Sources */,
+				66FBD4A1153B59C30041ECA8 /* song.c in Sources */,
+				66FBD4A3153B5BE00041ECA8 /* Final Programme.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
