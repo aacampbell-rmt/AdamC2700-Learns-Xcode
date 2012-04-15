@@ -22,6 +22,7 @@
 		6615210D15346D88000DAF1E /* Test5.c in Sources */ = {isa = PBXBuildFile; fileRef = 6615210C15346D88000DAF1E /* Test5.c */; };
 		66DAFD901537552D0092373D /* Dynamic Memory and Strings.c in Sources */ = {isa = PBXBuildFile; fileRef = 66DAFD8F1537552D0092373D /* Dynamic Memory and Strings.c */; };
 		66FAD26515363C9400B72512 /* Pointers.c in Sources */ = {isa = PBXBuildFile; fileRef = 66FAD26415363C9400B72512 /* Pointers.c */; };
+		66FBD49A153B4C310041ECA8 /* Address Book.c in Sources */ = {isa = PBXBuildFile; fileRef = 66FBD499153B4C310041ECA8 /* Address Book.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +59,7 @@
 		6615210C15346D88000DAF1E /* Test5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Test5.c; sourceTree = "<group>"; };
 		66DAFD8F1537552D0092373D /* Dynamic Memory and Strings.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Dynamic Memory and Strings.c"; sourceTree = "<group>"; };
 		66FAD26415363C9400B72512 /* Pointers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Pointers.c; sourceTree = "<group>"; };
+		66FBD499153B4C310041ECA8 /* Address Book.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Address Book.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				66059F641534ED1A006CF1D6 /* Text Arrays Strings.c */,
 				661298361537481C006B7493 /* Dynamic Memory.c */,
 				66DAFD8F1537552D0092373D /* Dynamic Memory and Strings.c */,
+				66FBD499153B4C310041ECA8 /* Address Book.c */,
 			);
 			name = "C from Book";
 			path = "C from book";
@@ -186,6 +189,7 @@
 				66FAD26515363C9400B72512 /* Pointers.c in Sources */,
 				661298371537481C006B7493 /* Dynamic Memory.c in Sources */,
 				66DAFD901537552D0092373D /* Dynamic Memory and Strings.c in Sources */,
+				66FBD49A153B4C310041ECA8 /* Address Book.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
